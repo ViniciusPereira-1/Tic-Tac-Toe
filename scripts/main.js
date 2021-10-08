@@ -86,8 +86,9 @@ class GameArea {
 
      gameSquare.forEach (square => {
        square.textContent = ''
-       square.style.opacity = '0.6'
-       square.style.color = 'black'});
+       square.style.opacity = ''
+       square.style.color = ''
+     });
 
      this.inPlay = true;
      this.isDraw = false;
